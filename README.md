@@ -4,7 +4,7 @@ is simple modiule for deno It helps us to verify the email if it is valid
 # Usage
 a valid emails
 ```js
-import { isEmail } from "https://deno.land/x/isEmail/mod.ts";
+import { isEmail } from "https://deno.land/x/isemail/mod.ts";
 
 // Pass the email you want check it as argument
 console.log(isEmail('username@domain.com')) // true
@@ -13,7 +13,7 @@ console.log(isEmail('user#name@do07main.com')) // false
 ```
 
 # A valid Emails
-Examples
+Examples:
 
 ```js
 
@@ -23,10 +23,12 @@ console.log(isEmail('user-name@sub.domain.com.dz')) // true
 
 ```
 # Invalid Emails
-Not allowed characters: ! # $ % & ‘ * + – / = ? ^ ` . { | } ~
 Any email containing one of the not allowed characters , it is not valid
 
-Examples
+Not allowed characters: ! # $ % & ‘ * + – / = ? ^ ` . { | } ~
+
+
+Examples:
 ```js
 
 console.log(isEmail('user#name@domain.com'))        // false
